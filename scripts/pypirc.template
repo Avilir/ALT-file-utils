@@ -1,0 +1,26 @@
+# PyPI Configuration Template
+# Copy this file to ~/.pypirc and update with your credentials
+# 
+# For security, use API tokens instead of passwords:
+# - PyPI: https://pypi.org/manage/account/token/
+# - TestPyPI: https://test.pypi.org/manage/account/token/
+
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+repository = https://upload.pypi.org/legacy/
+username = __token__
+password = pypi-<your-token-here>
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = pypi-<your-test-token-here>
+
+# Alternative: Using username/password (less secure)
+# [pypi]
+# username = your-pypi-username
+# password = your-pypi-password
