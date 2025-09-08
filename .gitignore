@@ -116,6 +116,11 @@ ENV/
 env.bak/
 venv.bak/
 
+# Local scripts (not for repo)
+scripts/setup_branch_protection.sh
+scripts/check_branch_protection.sh
+scripts/BRANCH_PROTECTION_README.md
+
 # Spyder project settings
 .spyderproject
 .spyproject
